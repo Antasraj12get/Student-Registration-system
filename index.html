@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student registration system</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assests/ico.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- background-image: repeating-conic-gradient(in hsl longer hue,rgb(244, 52, 52),rgb(26, 26, 244) 180deg); -->
+
+    <section class="fluidcontainer">
+
+        <div id="head">
+            <h1>Student Registration System</h1>
+            <p id="updatefirst">
+                A Student Registration System is a simple yet effective example of a To Do List project, This system
+                allows users to add, Edit, and Delete student information in a structured way.
+                <br>
+                <strong>Adding Student Details:</strong> Users can input essential student information such as name, age, and class,
+                similar to adding tasks in a To-Do list.
+<br>
+                <strong>Editing/Deleting Student Information:</strong> Users can modify existing student details or delete records if
+                necessary, mirroring how tasks are edited or removed in a To-Do list.
+<br>
+                <strong>List View:</strong> Just like a task list, all students are displayed in a list format, making it easy to view
+                and manage multiple records at once
+            </p>
+            
+        </div>
+        <div id="maincontainer">
+            <div id="form">
+                <div id="element1">
+                    <label for="studentname">Student Name:</label>
+                    <input type="text" id="studentname" class="inputarea">
+                </div>
+                <div id="element2">
+                    <label for="id">Student ID:</label>
+                    <input type="number" id="id" class="inputarea">
+                </div>
+                <div id="element3">
+                    <label for="class">Class:</label>
+                    <input type="text" id="class" class="inputarea">
+                </div>
+                <div id="element4">
+                    <label for="rollno">Roll No:</label>
+                    <input type="number" id="rollno" class="inputarea">
+                </div>
+                <div id="buttons" style="margin: 15px;">
+                    <button type="submit" id="buts">Add Info</button>
+                </div>
+            </div>
+            <div id="update">
+                <div id="elements">
+                    <ul>
+                        <li id="name">Name</li>
+                        <li id="idput">ID</li>
+                        <li id="classput">Class</li>
+                        <li id="noput">RollNO</li>
+                    </ul>
+                </div>
+                <div id="todo" class="ndiv">
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
